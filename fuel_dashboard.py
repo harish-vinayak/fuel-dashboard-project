@@ -10,9 +10,9 @@ from sklearn.model_selection import train_test_split
 @st.cache_data
 def load_data():
     # Load datasets
-    df1 = pd.read_csv("E:\\Harish Important\\MCA\\Fuel project\\MY2022 Fuel Consumption Ratings.csv", encoding='latin1')
-    df2 = pd.read_csv("E:\\Harish Important\\MCA\\Fuel project\\Fuel Consumption Ratings 2023.csv", encoding='latin1')
-    df3 = pd.read_csv("E:\\Harish Important\\MCA\\Fuel project\\Fuel Consumption Ratings 2024.csv", encoding='latin1')
+    df1 = pd.read_csv("MY2022 Fuel Consumption Ratings.csv", encoding='latin1')
+    df2 = pd.read_csv("Fuel Consumption Ratings 2023.csv", encoding='latin1')
+    df3 = pd.read_csv("Fuel Consumption Ratings 2024.csv", encoding='latin1')
 
     # Clean column names
     def clean_cols(df):
